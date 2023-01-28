@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+    background-color: #fbfbfb;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-inline: 22.22em;
+    margin-top: 50px;
+}
+
+.header-title {
+    font-size: 55px;
+    font-weight: bolder;
+    color: rgb(255, 110, 12);
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.header-description {
+    font-size: 20px;
+    color: rgb(143, 143, 143);
+    word-wrap: break-word;
+    margin: 20px;
+}
+
+.btn-about {
+    background: rgb(73, 205, 213);
+    padding: 15px;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    margin-top: 40px;
+}
+
+
+.card {
+    width: 20em;
+    border: 2px solid hsl(0, 0%, 92%);
+    border-radius: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.card-header {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+
+}
+
+.card-title {
+    font-size: 37px;
+    color: rgb(255, 110, 12);
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.card-subtitle {
+    font-size: 22px;
+    color: rgb(255, 110, 12);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-description {
+    color: rgb(143, 143, 143);
+    margin-bottom: 15px;
+}
